@@ -1,3 +1,12 @@
 body { background-size: 100%; }
 td { width: 40px; height: 40px; text-align: center; }
 th { width: 40px; height: 40px; text-align: center; }
+.pr {height: 1000px;}
+.bbq {display: inline-block;}
+.margarita {display: inline-block;}
+.chicekn {display: inline-block;}
+.veganskaya {display: inline-block;}
+.gribnaya {display: inline-block;}
+.paprica {display: inline-block;}
+.meet {display: inline-block;}
+.sausage {display: inline-block;}
