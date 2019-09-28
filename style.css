@@ -10,6 +10,8 @@ th { width: 40px; height: 40px; text-align: center; }
 .meet {display: inline-block;}
 .sausage {display: inline-block;}
 
+body { text-align: center;}
+
 .p1 
 {
   background: red; color:blue; font: arial; font-size: 50px; text-indent: 10px; line-height:1,5; width:40%; 
