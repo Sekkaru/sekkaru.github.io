@@ -9,3 +9,18 @@ th { width: 40px; height: 40px; text-align: center; }
 .paprica {display: inline-block;}
 .meet {display: inline-block;}
 .sausage {display: inline-block;}
+
+.p1 
+{
+  background: red; color:blue; font: arial; font-size: 50px; text-indent: 10px; line-height:1,5; width:40%; 
+}
+
+.p2
+{
+  background: blue; color:magenta; font: times new roman; font-size: 35px; text-indent: 15px; line-height:1,75; width:40%; 
+}
+
+.p3
+{
+  background: magenta; color:green; font: comic sans ms; font-size: 20px; text-indent: 20px; line-height:2; width:40%; 
+}
