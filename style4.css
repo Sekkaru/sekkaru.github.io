@@ -9,5 +9,9 @@ a:hover{background-color: Red;}
 .button2:target { display: block; }
 .button3 { display: none; }
 .button3:target { display: block; }
-.button4 { display: none; }
-.button4:target { display: block; }
+
+.bst1 { background-color: #7FFFD4; border: 10px inset #FFFF00; padding: 10px; }
+
+.bst2 { background-color: #7B68EE; border: 10px dashed #FFFF00; padding: 10px; }
+
+.bst3 { background-color: #191970; border: 10px double #FFFF00; padding: 10px; }
