@@ -13,7 +13,7 @@ a:hover{ background-color: #FFD700; }
 .button3 { display: none; }
 .button3:target { display: block; }
 
-p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700; background-color: #FFFFFF; }
+p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700;}
 
 tr:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
 tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
