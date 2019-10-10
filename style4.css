@@ -1,10 +1,10 @@
 body  { background-color: #808080; }
 
-a:link {color: #FF00FF;}
-a:visited {color: #FF00FF;}
-a:hover {color: #FF00FF;}
-a:active {color: #FF00FF;}
-a:hover{background-color: #FFD700;}
+a:link { color: #FF00FF; }
+a:visited { color: #FF00FF; }
+a:hover { color: #FF00FF; }
+a:active { color: #FF00FF; }
+a:hover{ background-color: #FFD700; }
 
 .button1 { display: none; }
 .button1:target { display: block; }
@@ -13,7 +13,7 @@ a:hover{background-color: #FFD700;}
 .button3 { display: none; }
 .button3:target { display: block; }
 
-p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700; }
+p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700; background-color: #FFFFFF; }
 
 tr:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
 tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
