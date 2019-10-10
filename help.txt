@@ -3,3 +3,4 @@
 <span> bgcolor border
 <figure> caption
 <br> отступ
+https://www.w3schools.com/css/css_pseudo_elements.asp css псевдо элементы
