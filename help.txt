@@ -2,3 +2,4 @@
 :nth-child(n) 	p:nth-child(2) 	Selects every <p> element that is the second child of its parent
 <span> bgcolor border
 <figure> caption
+<br> отступ
