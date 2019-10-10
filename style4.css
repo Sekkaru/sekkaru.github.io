@@ -2,7 +2,7 @@ a:link {color: #FF00FF;}
 a:visited {color: #FF00FF;}
 a:hover {color: #FF00FF;}
 a:active {color: #FF00FF;}
-a:hover{background-color: Red;}
+a:hover{background-color: #FFD700;}
 .button1 { display: none; }
 .button1:target { display: block; }
 .button2 { display: none; }
