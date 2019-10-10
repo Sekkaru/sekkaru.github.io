@@ -13,6 +13,8 @@ a:hover{background-color: #FFD700;}
 .button3 { display: none; }
 .button3:target { display: block; }
 
+p.size { font-family: comic sans ms, cursive; font-size: 30px;}
+
 tr:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
 tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
 
