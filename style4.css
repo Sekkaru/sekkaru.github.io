@@ -12,7 +12,7 @@ a:hover{background-color: #FFD700;}
 
 }
 tr:nth-child(even) { background-color: #000000; color: #FFD700;}
-tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
+tr:nth-child(odd) { background-color: #FF00FF; color: #FFD700; }
 
 .bst1 { background-color: #7FFFD4; border: 10px inset #FFFF00; padding: 10px; }
 
