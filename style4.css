@@ -1,9 +1,11 @@
 body  { background-color: #808080; }
+
 a:link {color: #FF00FF;}
 a:visited {color: #FF00FF;}
 a:hover {color: #FF00FF;}
 a:active {color: #FF00FF;}
 a:hover{background-color: #FFD700;}
+
 .button1 { display: none; }
 .button1:target { display: block; }
 .button2 { display: none; }
@@ -11,14 +13,9 @@ a:hover{background-color: #FFD700;}
 .button3 { display: none; }
 .button3:target { display: block; }
 
-}
-td:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
-td:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
-th:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
-th:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
+tr:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
+tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
 
 .bst1 { background-color: #7FFFD4; border: 10px inset #FFFF00; padding: 10px; }
-
 .bst2 { background-color: #7B68EE; border: 10px dashed #FFFF00; padding: 10px; }
-
 .bst3 { background-color: #191970; border: 10px double #FFFF00; padding: 10px; }
