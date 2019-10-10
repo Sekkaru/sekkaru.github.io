@@ -1,7 +1,7 @@
-a:link {color: Mgenta;}
-a:visited {color: Mgenta;}
-a:hover {color: Mgenta;}
-a:active {color: Mgenta;}
+a:link {color: #FF00FF;}
+a:visited {color: #FF00FF;}
+a:hover {color: #FF00FF;}
+a:active {color: #FF00FF;}
 a:hover{background-color: Red;}
 .button1 { display: none; }
 .button1:target { display: block; }
