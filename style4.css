@@ -12,7 +12,7 @@ a:active { color: #FF00FF; }
 .button3 { display: none; }
 .button3:target { display: block; }
 
-.table { border: 1px double; align: center; color: #FFD700; }
+table { border: 1px double; align: center; color: #FFD700; }
 
 p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700;}
 
