@@ -15,8 +15,11 @@ a:hover{ background-color: #FFD700; }
 
 p:first-letter { font-family: Arial; font-size: 50px; color: #FFD700;}
 
+tr:first-child { bgcolor: black; color: red; }
+
 tr:nth-child(even) { background-color: #FF00FF; color: #FFD700;}
 tr:nth-child(odd) { background-color: #FFFFFF; color: #FFD700; }
+
 td { width: 40px; height: 40px; text-align: center; }
 th { width: 40px; height: 40px; text-align: center; }
 
