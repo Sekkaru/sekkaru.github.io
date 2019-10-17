@@ -5,115 +5,115 @@
 	<title>EX 4 CW(ORIGINAL)</title>
 </head>
 <body>
-	<div class="doc", text-align: center;>
-		<header>
+	<div class="doc">
+		<header class="sod">
 			<h3>Содержание</h3>
 			<ol>
-				<li><b>Основы HTML</b></li>
-				<li><b>Структура HTML-документа</b></li>
+				<li><b><a href = "#os" >Основы HTML</a></b></li>
+				<li><b><a href = "#struct" >Структура HTML-документа</a></b></li>
 			</ol>
 			<ul>
-				<li>Элемент &lthtml&gt</li>
-				<li>Элемент &lthead&gt</li>
-				<li>Элемент &lttitle&gt</li>
-				<li>Элемент &ltmeta&gt</li>
-				<li>Элемент &ltstyle&gt</li>
-				<li>Элемент &ltlink&gt</li>
+				<li><a href = "#down1" >Элемент &lt;html&gt;</a></li>
+				<li><a href = "#down2" >Элемент &lt;head&gt;</a></li>
+				<li><a href = "#down3" >Элемент &lt;title&gt;</a></li>
+				<li><a href = "#down4" >Элемент &lt;meta&gt;</a></li>
+				<li><a href = "#down5" >Элемент &lt;style&gt;</a></li>
+				<li><a href = "#down6" >Элемент &lt;link&gt;</a></li>
 			</ul>
 		</header>
-		<header>Основы HTML</header>
-		<img src="pdf/html_pic.png">
+		<header><a name="os" >Основы HTML</a></header>
+		<img src="pdf/html_pic.png", align="left">
 		<p><b>Основы HTML</b> содержат основные правила языка HTML, описание структуры HTML-страницы, отношения в структуре HTML-документа между HTML-элементами.</p>
 	
 		<p>HTML-документ — это обычный текстовый документ, может быть создан как в обычном текстовом редакторе <b>(Блокнот)</b>, так и в специализированном, с подсветкой кода <b>(Notepad++, Visual Studio Code и т.п.)</b>. HTML-документ имеет расширение <span class="text">.html.</span></p>
 
 		<p>HTML-документ состоит из дерева HTML-элементов и текста. Каждый элемент обозначается в исходном документе начальным (открывающим) и конечным (закрывающим) тегом (за редким исключением).</p>
 
-		<p><b>Начальный тег</b> показывает, где начинается элемент, конечный — где заканчивается. <b>Закрывающий тег</b> образуется путем добавления слэша <span class="text">/</span> перед именем тега: <span class="text">&ltимя тега&gt</span> … <span class="text">&lt/имя тега&gt</span>. Между начальным и закрывающим тегами находится содержимое тега — контент.</p>
+		<p><b>Начальный тег</b> показывает, где начинается элемент, конечный — где заканчивается. <b>Закрывающий тег</b> образуется путем добавления слэша <span class="text">/</span> перед именем тега: <span class="text">&lt;имя тега&gt;</span> … <span class="text">&lt;/имя тега&gt;</span>. Между начальным и закрывающим тегами находится содержимое тега — контент.</p>
 
-		<p>Одиночные теги не могут хранить в себе содержимого напрямую, оно прописывается как значение атрибута, например, тег <span class="text">&ltinput type="button" value="Кнопка"&gt</span> создаст кнопку с текстом Кнопка внутри.</p>
+		<p>Одиночные теги не могут хранить в себе содержимого напрямую, оно прописывается как значение атрибута, например, тег <span class="text">&lt;input type="button" value="Кнопка"&gt;</span> создаст кнопку с текстом Кнопка внутри.</p>
 
-		<p>Теги могут вкладываться друг в друга, например, <span class="text">&ltp&gt&lti&gtТекст&lt/i&gt&lt/p&gt</span>. При вложении следует соблюдать порядок их закрытия (принцип «матрёшки»), например, следующая запись будет неверной: <span class="text">&ltp&gt&lti&gtТекст&lt/p&gt&lt/i&gt</span> .</p>
+		<p>Теги могут вкладываться друг в друга, например, <span class="text">&lt;p&gt;&lt;i&gt;Текст&lt;/i&gt;&lt;/p&gt;</span>. При вложении следует соблюдать порядок их закрытия (принцип «матрёшки»), например, следующая запись будет неверной: <span class="text">&lt;p&gt;&lt;i&gt;Текст&lt;/p&gt;&lt;/i&gt;</span> .</p>
 
 		<p>HTML-элементы могут иметь атрибуты (глобальные, применяемые для всех HTML-элементов, и собственные). Атрибуты прописываются в открывающем теге элемента и содержат имя и значение, указываемые в формате <span class="text">имя атрибута="значение"</span> . Атрибуты позволяют изменять свойства и поведение элемента, для которого они заданы.</p>
 
-		<p>Каждому элементу можно присвоить несколько значений <span class="text">class</span> и только одно значение <span class="text">id</span>. Множественные значения <span class="text">class</span> записываются через пробел, <span class="text">&ltdiv class="nav top"&gt</span>. Значения <span class="text">class</span> и <span class="text">id</span> должны состоять только из букв, цифр, дефисов и нижних подчеркиваний и должны начинаться только с букв или цифр</p>
+		<p>Каждому элементу можно присвоить несколько значений <span class="text">class</span> и только одно значение <span class="text">id</span>. Множественные значения <span class="text">class</span> записываются через пробел, <span class="text">&lt;div class="nav top"&gt;</span>. Значения <span class="text">class</span> и <span class="text">id</span> должны состоять только из букв, цифр, дефисов и нижних подчеркиваний и должны начинаться только с букв или цифр</p>
 
 		<p>Браузер просматривает (интерпретирует) HTML-документ, выстраивая его структуру (DOM) и отображая ее в соответствии с инструкциями, включенными в этот файл (таблицы стилей, скрипты). Если разметка правильная, то в окне браузера будет отображена HTML-страница, содержащая HTMLэлементы — заголовки, таблицы, изображения и т.д.</p>
 
 		<p>Процесс интерпретации <b>(парсинг)</b> начинается прежде, чем веб-страница полностью загружена в браузер. Браузеры обрабатывают HTML-документы последовательно, с самого начала, при этом обрабатывая CSS и соотнося таблицы стилей с элементами страницы.</p>
 
-		<p>HTML-документ состоит из двух разделов — заголовка — между тегами <span class="text">&lthead&gt</span> … <span class="text">&lt/head&gt</span> и содержательной части — между тегами <span class="text">&ltbody&gt</span> … <span class="text">&lt/body&gt</span>.</p>
+		<p>HTML-документ состоит из двух разделов — заголовка — между тегами <span class="text">&lt;head&gt;</span> … <span class="text">&lt;/head&gt;</span> и содержательной части — между тегами <span class="text">&lt;body&gt;</span> … <span class="text">&lt;/body&gt;</span>.</p>
 
-		<header>Структура HTML-документа</header>
+		<header><b><a name = "struct" >Структура HTML-документа</a></b></header>
 
 		<p>Язык HTML следует правилам, которые содержатся в файле объявления типа документа <b>(Document Type Definition, или DTD)</b>. DTD представляет собой XML-документ, определяющий, какие теги, атрибуты и их значения действительны для конкретного типа HTML. Для каждой версии HTML есть свой DTD.</p>
 
 		<p><b>DOCTYPE</b> отвечает за корректное отображение веб-страницы браузером. DOCTYPE определяет не только версию HTML (например, html), но и соответствующий DTD-файл в Интернете.</p>
 
-		<p class="kod">&lt!DOCTYPE html&gt &lt!-- Объявление формата документа --&gt<br>&lthtml&gt<br>&lthead&gt &lt!-- Техническая информация о документе --&gt<br>
-		&ltmeta charset="UTF-8"&gt &lt!-- Определяем кодировку символов документа --&gt<br>&lttitle&gt...&lt/title&gt &lt!-- Задаем заголовок документа --&gt<br>&ltlink rel="stylesheet" type="text/css" href="style.css"&gt &lt!-- Подключаем внешнюю таблицу стилей --&gt<br>&ltscript src="script.js"&gt&lt/script&gt &lt!-- Подключаем сценарии --&gt<br>&lt/head&gt<br>&ltbody&gt &lt!-- Основная часть документа --&gt<br>&lt/body&gt<br>&lt/html&gt</p>
+		<p class="kod">&lt;<span class="indigoo">!DOCTYPE html</span>&gt; <span class="greenn">&lt;!-- Объявление формата документа --&gt;</span><br>&lt;<span class="bluee">html</span>&gt;<br>&lt;<span class="bluee">head</span>&gt; <span class="greenn">&lt;!-- Техническая информация о документе --&gt;</span><br>
+		&lt;<span class="bluee">meta</span> <span class="redd">charset</span>="UTF-8"&gt; <span class="greenn">&lt;!-- Определяем кодировку символов документа --&gt;</span><br>&lt;<span class="bluee">title</span>&gt;...&lt;<span class="bluee">/title</span>&gt; <span class="greenn">&lt;!-- Задаем заголовок документа --&gt;</span><br>&lt;<span class="bluee">link</span> <span class="redd">rel</span>="<span class="indigoo">stylesheet</span>" <span class="redd">type</span>="<span class="indigoo">text/css</span>" <span class="redd">href</span>="<span class="indigoo">style.css</span>"&gt; <span class="greenn">&lt;!-- Подключаем внешнюю таблицу стилей --&gt;</span><br>&lt;<span class="bluee">script</span> <span class="redd">src</span>="<span class="indigoo">script.js</span>"&gt;&lt;<span class="bluee">/script</span>&gt; <span class="greenn">&lt;!-- Подключаем сценарии --&gt;</span><br>&lt;<span class="bluee">/head</span>&gt;<br>&lt;<span class="bluee">body</span>&gt; <span class="greenn">&lt;!-- Основная часть документа --&gt;</span><br>&lt;<span class="bluee">/body</span>&gt;<br>&lt;<span class="bluee">/html</span>&gt;</p>
 
-		<p>Элементы, находящиеся внутри тега <span class="text">&lthtml&gt</span>, образуют дерево документа, так называемую <b>объектную модель документа, DOM (document object model)</b>. При этом элемент <span class="text">&lthtml&gt</span> является корневым элементом.</p>
+		<p>Элементы, находящиеся внутри тега <span class="text">&lt;html&gt;</span>, образуют дерево документа, так называемую <b>объектную модель документа, DOM (document object model)</b>. При этом элемент <span class="text">&lt;html&gt;</span> является корневым элементом.</p>
 
-		<img src="pdf/DOM.png">
+		<figure><img src="pdf/DOM.png" alt=""><figcaption><p align="center">РИС. 1. ПРОСТЕЙШАЯ СТРУКТУРА ВЕБ-СТРАНИЦЫ</p></figcaption></figure>
 
 		<p>Чтобы разобраться во взаимодействии элементов веб-страницы, необходимо рассмотреть так называемые <b>«родственные отношения»</b> между элементами. Отношения между множественными вложенными элементами подразделяются на родительские, дочерние и сестринские.</p>
 
-		<p><b>Предок</b> — элемент, который заключает в себе другие элементы. На рисунке 1 предком для всех элементов является <span class="text">&lthtml&gt</span>. В то же время элемент <span class="text">&ltbody&gt</span> является предком для всех содержащихся в нем тегов: <span class="text">&lth1&gt</span>, <span class="text">&ltp&gt</span>, <span class="text">&ltspan&gt</span>, <span class="text">&ltnav&gt</span> и т.д.</p>
+		<p><b>Предок</b> — элемент, который заключает в себе другие элементы. На рисунке 1 предком для всех элементов является <span class="text">&lt;html&gt;</span>. В то же время элемент <span class="text">&ltbody&gt</span> является предком для всех содержащихся в нем тегов: <span class="text">&lt;h1&gt;</span>, <span class="text">&lt;p&gt;</span>, <span class="text">&lt;span&gt;</span>, <span class="text">&lt;nav&gt;</span> и т.д.</p>
 
-		<p><b>Потомок</b> — элемент, расположенный внутри одного или более типов элементов. Например, <span class="text">&ltbody&gt</span> является потомком <span class="text">&lthtml&gt</span>, а элемент <span class="text">&ltp&gt</span> является потомком одновременно для <span class="text">&ltbody&gt</span> и <span class="text">&lthtml&gt</span>.</p>
+		<p><b>Потомок</b> — элемент, расположенный внутри одного или более типов элементов. Например, <span class="text">&lt;body&gt;</span> является потомком <span class="text">&lt;html&gt;</span>, а элемент <span class="text">&lt;p&gt;</span> является потомком одновременно для <span class="text">&lt;body&gt;</span> и <span class="text">&lt;html&gt;</span>.</p>
 
-		<p><b>Родительский элемент</b> — элемент, связанный с другими элементами более низкого уровня, и находящийся на дереве выше их. На рисунке 1 <span class="text">&lthtml&gt</span> является родительским только для <span class="text">&lthead&gt</span> и <span class="text">&ltbody&gt</span>. Тег <span class="text">&ltp&gt</span> является родительским только для <span class="text">&ltspan&gt</span>.</p>
+		<p><b>Родительский элемент</b> — элемент, связанный с другими элементами более низкого уровня, и находящийся на дереве выше их. На рисунке 1 <span class="text">&lt;html&gt;</span> является родительским только для <span class="text">&lt;head&gt;</span> и <span class="text">&lt;body&gt;</span>. Тег <span class="text">&lt;p&gt;</span> является родительским только для <span class="text">&lt;span&gt;</span>.</p>
 
-		<p><b>Дочерний элемент</b> — элемент, непосредственно подчиненный другому элементу более высокого уровня. На рисунке 1 только элементы <span class="text">&lth1&gt</span>, <span class="text">&lth2&gt</span>, <span class="text">&ltp&gt</span> и <span class="text">&ltnav&gt</span> являются дочерними по отношению к <span class="text">&ltbody&gt</span>.</p>
+		<p><b>Дочерний элемент</b> — элемент, непосредственно подчиненный другому элементу более высокого уровня. На рисунке 1 только элементы <span class="text">&lt;h1&gt;</span>, <span class="text">&lt;h2&gt;</span>, <span class="text">&lt;p&gt;</span> и <span class="text">&lt;nav&gt;</span> являются дочерними по отношению к <span class="text">&lt;body&gt;</span>.</p>
 
-		<p><b>Сестринский элемент</b> — элемент, имеющий общий родительский элемент с рассматриваемым, так называемые элементы одного уровня. На рисунке 1 <span class="text">&lthead&gt</span> и <span class="text">&ltbody&gt</span> — элементы одного уровня, так же как и элементы <span class="text">&lth1&gt</span>, <span class="text">&lth2&gt</span> и <span class="text">&ltp&gt</span> являются между собой сестринскими.</p>
+		<p><b>Сестринский элемент</b> — элемент, имеющий общий родительский элемент с рассматриваемым, так называемые элементы одного уровня. На рисунке 1 <span class="text">&lt;head&gt;</span> и <span class="text">&lt;body&gt;</span> — элементы одного уровня, так же как и элементы <span class="text">&lt;h1&gt;</span>, <span class="text">&lt;h2&gt;</span> и <span class="text">&l;tp&gt;</span> являются между собой сестринскими.</p>
 
 		<ol>
-		<li><h3>Элемент &lthtml&gt</h3></li>
-		<p>Является корневым элементом документа. Все остальные элементы содержатся внутри тегов <span class="text">&lthtml&gt</span>...<span class="text">&lt/html&gt</span>. Все, что находится за пределами тегов, не воспринимается браузером как код HTML и никак им не обрабатывается. Для элемента доступны атрибуты <span class="text">manifest</span> и <span class="text">xmlns</span> , а также глобальные атрибуты.</p>
-		<table border="1" class="tabl" align="center"> 
+		<li><h3><a name = "down1">Элемент &lt;html&gt;</a></h3></li>
+		<p>Является корневым элементом документа. Все остальные элементы содержатся внутри тегов <span class="text">&lt;html&gt;</span>...<span class="text">&lt;/html&gt;</span>. Все, что находится за пределами тегов, не воспринимается браузером как код HTML и никак им не обрабатывается. Для элемента доступны атрибуты <span class="text">manifest</span> и <span class="text">xmlns</span> , а также глобальные атрибуты.</p>
+		<figure><figcaption><p align="center">ТАБЛИЦА 1. АТРИБУТЫ ТЕГА &lt;HTML&gt;</p></figcaption><table border="1" class="tabl" align="center"> 
 			<tr>
 				<th>Атрибут</th>
 				<th>Описание, принимаемое значение</th>
 			</tr>
 			<tr>
 				<td><span class="text">manifest</span></td>
-				<td>С помощью значения атрибута указывается путь к документу кэша манифеста, например: <span class="text">&lthtml manifest="about_company.appcache"&gt</span></td>
+				<td>С помощью значения атрибута указывается путь к документу кэша манифеста, например: <span class="text">&lt;html manifest="about_company.appcache"&gt;</span></td>
 			</tr>
-		</table>
+		</table></figure>
 		
-		<li><h3>Элемент &lthead&gt</h3></li>
-		<p>Раздел <span class="text">&lthead&gt</span>...<span class="text">&lt/head&gt</span> содержит техническую информацию о странице: заголовок, описание, ключевые слова для поисковых машин, кодировку и т.д. Введенная в нем информация не отображается в окне браузера, однако содержит данные, которые указывают браузеру, как следует обрабатывать страницу.</p>
+		<li><h3><a name = "down2">Элемент &lt;head&gt;</a></h3></li>
+		<p>Раздел <span class="text">&lt;head&gt;</span>...<span class="text">&lt;/head&gt;</span> содержит техническую информацию о странице: заголовок, описание, ключевые слова для поисковых машин, кодировку и т.д. Введенная в нем информация не отображается в окне браузера, однако содержит данные, которые указывают браузеру, как следует обрабатывать страницу.</p>
 		<p>Для элемента доступны глобальные атрибуты.</p>
 
-		<li><h3>Элемент &lttitle&gt</h3></li>
-		<p>Обязательным тегом раздела <span class="text">&lthead&gt</span> является тег <span class="text">&lttitle&gt</span>. Текст, размещенный внутри этого тега, отображается в строке заголовка веб-браузера. Длина заголовка должна быть не более 60 символов, чтобы полностью поместиться в заголовке. Текст заголовка должен содержать максимально полное описание содержимого веб-страницы.</p>
+		<li><h3><a name = "down3">Элемент &lt;title&gt;</a></h3></li>
+		<p>Обязательным тегом раздела <span class="text">&lt;head&gt;</span> является тег <span class="text">&lt;title&gt;</span>. Текст, размещенный внутри этого тега, отображается в строке заголовка веб-браузера. Длина заголовка должна быть не более 60 символов, чтобы полностью поместиться в заголовке. Текст заголовка должен содержать максимально полное описание содержимого веб-страницы.</p>
 		<p>Для элемента доступны глобальные атрибуты.</p>
 
-		<li><h3>Элемент &ltmeta&gt</h3></li>
-		<p>Необязательным тегом раздела <span class="text">&lthead&gt</span> является одинарный тег <span class="text">&ltmeta&gt</span>. С его помощью можно задать описание содержимого страницы и ключевые слова для поисковых машин, автора HTML-документа и прочие свойства метаданных. Элемент <span class="text">&lthead&gt</span> может содержать несколько элементов <span class="text">&ltmeta&gt</span>, потому что в зависимости от используемых атрибутов они несут различную информацию.</p>
-		<p class="kod">&ltmeta name="description" content="Описание содержимого страницы"&gt<br>
-			&ltmeta name="keywords" content="Ключевые слова через запятую"&gt</p>
+		<li><h3><a name = "down4">Элемент &lt;meta&gt;</a></h3></li>
+		<p>Необязательным тегом раздела <span class="text">&lt;head&gt;</span> является одинарный тег <span class="text">&lt;meta&gt;</span>. С его помощью можно задать описание содержимого страницы и ключевые слова для поисковых машин, автора HTML-документа и прочие свойства метаданных. Элемент <span class="text">&lt;head&gt;</span> может содержать несколько элементов <span class="text">&lt;meta&gt;</span>, потому что в зависимости от используемых атрибутов они несут различную информацию.</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"description"</span> <span class="redd">content</span>=<span class="indigoo">"Описание содержимого страницы"</span>&gt;<br>
+			&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"keywords"</span> <span class="redd">content</span>=<span class="indigoo">"Ключевые слова через запятую"</span>&gt;</p>
 		<p>Описание содержимого страницы и ключевые слова одновременно можно указывать на нескольких языках, например, на русском и английском:</p>
-		<p class="kod">&ltmeta name="description" lang="ru" content="Описание содержимого страницы"&gt<br> 
-			&ltmeta name="description" lang="en" content="Description"&gt<br>
-			&ltmeta name="keywords" lang="ru" content="Ключевые слова через запятую"&gt<br>
-			&ltmeta name="keywords" lang="en" content="Keywords"&gt</p>
-		<p>С помощью тега <span class="text">&ltmeta&gt</span> можно запретить или разрешить индексацию веб-страницы поисковыми машинами:</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"description"</span> <span class="redd">lang</span>=<span class="indigoo">"ru"</span> <span class="redd">content</span>=<span class="indigoo">"Описание содержимого страницы"</span>&gt;<br> 
+			&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"description"</span> <span class="redd">lang</span>=<span class="indigoo">"en"</span> <span class="redd">content</span>=<span class="indigoo">"Description"</span>&gt;<br>
+			&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"keywords"</span> <span class="redd">lang</span>=<span class="indigoo">"ru"</span> <span class="redd">content</span>=<span class="indigoo">"Ключевые слова через запятую"</span>&gt;<br>
+			&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"keywords"</span> <span class="redd">lang</span>=<span class="indigoo">"en"</span> <span class="redd">content</span>=<span class="indigoo">"Keywords"</span>&gt;</p>
+		<p>С помощью тега <span class="text">&lt;meta&gt;</span> можно запретить или разрешить индексацию веб-страницы поисковыми машинами:</p>
 		<p>Индексация и переход по ссылкам разрешены:</p>
-		<p class="kod">&ltmeta name="robots" content="index, follow"&gt</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"robots"</span> <span class="redd">content</span>=<span class="indigoo">"index, follow"</span>&g;t</p>
 		<p>Индексация разрешена, переход по ссылкам запрещен:</p>
-		<p class="kod">&ltmeta name="robots" content="index, nofollow"&gt</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"robots"</span> <span class="redd">content</span>=<span class="indigoo">"index, nofollow"</span>&gt;</p>
 		<p>Индексация и переход по ссылкам запрещены:</p>
-		<p class="kod">&ltmeta name="robots" content="noindex, nofollow"&gt</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">name</span>=<span class="indigoo">"robots"</span> <span class="redd">content</span>=<span class="indigoo">"noindex, nofollow"</span>&gt;</p>
 		<p>Для автоматической перезагрузки страницы через заданный промежуток времени нужно воспользоваться значением <span class="text">refresh</span>:</p>
-		<p class="kod">&ltmeta http-equiv="refresh" content="30"&gt</p>
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">http-equiv</span>=<span class="indigoo">"refresh"</span> <span class="redd">content</span>=<span class="indigoo">"30"</span>&gt;</p>
 		<p>Страница будет перезагружена через 30 секунд. Чтобы перебросить посетителя на другую страницу, нужно указать URL-адрес в параметре <span class="text">url</span>: </p>
-		<p class="kod">&ltmeta http-equiv="refresh" content="0" url=http://yandex.ru/"&gt</p>
-		<p>Для элемента <span class="text">&ltmeta&gt</span> доступны атрибуты <span class="text">charset</span>, <span class="text">content</span>, <span class="text">http-equiv</span>, <span class="text">name</span>, а также глобальные атрибуты.</p>
-		<table border="1" class="tabl" align="center">
+		<p class="kod">&lt;<span class="bluee">meta</span> <span class="redd">http-equiv</span>=<span class="indigoo">"refresh"</span> <span class="redd">content</span>=<span class="indigoo">"0"</span> <span class="redd">url</span>=<span class="indigoo">http://yandex.ru/"</span>&gt;</p>
+		<p>Для элемента <span class="text">&lt;meta&gt;</span> доступны атрибуты <span class="text">charset</span>, <span class="text">content</span>, <span class="text">http-equiv</span>, <span class="text">name</span>, а также глобальные атрибуты.</p>
+		<figure><figcaption><p align="center">ТАБЛИЦА 2. АТРИБУТЫ ТЕГА &lt;META&gt;</p></figcaption><table border="1" class="tabl" align="center">
 			<tr>
 				<th>Атрибу</th>
 				<th>Описание, принимаемое значение</th>
@@ -128,33 +128,33 @@
 			</tr>
 			<tr>
 				<td><span class="text">http-equiv</span></td>
-				<td>Контролирует действия браузера на данной веб-странице (эквивалент HTTP заголовков). При отображении страницы браузер будет следовать инструкциям, заданным в атрибуте: <span class="text">default-styleу</span> казывает предпочтительный стиль для использования на странице. Атрибут <span class="text">content</span> должен содержать идентификатор элемента <span class="text">&ltlink&gt</span>, который ссылается на таблицу стилей CSS, или идентификатор элемента <span class="text">&ltstyle&gt</span>, содержащего таблицу стилей. <span class="text">refresh</span> указывает время в секундах до перезагрузки страницы или время до перенаправления на другую страницу, если в атрибуте <span class="text">ontent</span> после указания времени идет строка <span class="text">"url=адрес_страницы"</span> . Автоматическая перезагрузка страницы через заданный промежуток времени, в данном примере, через 30 секунд: <span class="text">&ltmeta http-equiv="refresh" content="30"&gt</span> Если необходимо сразу перебросить посетителя на другую страницу, то можно указать URLадрес в параметре <span class="text">url</span>: <span class="text">&ltmeta http-equiv="refresh" content="0; url=http://mail.ru/"&gt</span></td>
+				<td>Контролирует действия браузера на данной веб-странице (эквивалент HTTP заголовков). При отображении страницы браузер будет следовать инструкциям, заданным в атрибуте: <span class="text">default-styleу</span> казывает предпочтительный стиль для использования на странице. Атрибут <span class="text">content</span> должен содержать идентификатор элемента <span class="text">&lt;link&gt;</span>, который ссылается на таблицу стилей CSS, или идентификатор элемента <span class="text">&lt;style&gt;</span>, содержащего таблицу стилей. <span class="text">refresh</span> указывает время в секундах до перезагрузки страницы или время до перенаправления на другую страницу, если в атрибуте <span class="text">ontent</span> после указания времени идет строка <span class="text">"url=адрес_страницы"</span> . Автоматическая перезагрузка страницы через заданный промежуток времени, в данном примере, через 30 секунд: <span class="text">&lt;meta http-equiv="refresh" content="30"&gt;</span> Если необходимо сразу перебросить посетителя на другую страницу, то можно указать URLадрес в параметре <span class="text">url</span>: <span class="text">&lt;meta http-equiv="refresh" content="0; url=http://mail.ru/"&gt;</span></td>
 			</tr>
 			<tr>
 				<td><span class="text">name</span></td>
-				<td>Ассоциируется со значением, содержащемся в атрибуте <span class="text">content</span>. Не должен использоваться в случае, если для элемента уже заданы атрибуты <span class="text">http-equiv</span> , <span class="text">charset</span> или <span class="text">itemprop</span>. <span class="text">application-name</span> указывает название веб-приложения, используемого на странице. authorуказывает имя автора документа в свободном формате. <span class="text">description</span> определяет краткое описание к содержимому страницы, например: <span class="text">&ltmeta name="description" content="Описание содержимого страницы"&gt</span> <span class="text">generator</span> указывает один из пакетов программного обеспечения, используемого для создания документа, например: <span class="text">&ltmeta name="generator" content="WordPress 4.0"&gt</span>. <span class="text">keywords</span> . содержит список ключевых слов, разделенных запятыми, соответствующих содержимому страницы, например: <span class="text">&ltmeta name="keywords" content="Ключевые слова через запятую"&gt</span>. Также атрибут name может принимать следующие значения из расширенной спецификации, такие как <span class="text">creator</span> , <span class="text">googlebot</span>, <span class="text">publisher</span> , <span class="text">robots</span> , <span class="text">slurp</span>, <span class="text">viewport</span>, хотя ни одно из них еще не было официально принято.</td>
+				<td>Ассоциируется со значением, содержащемся в атрибуте <span class="text">content</span>. Не должен использоваться в случае, если для элемента уже заданы атрибуты <span class="text">http-equiv</span> , <span class="text">charset</span> или <span class="text">itemprop</span>. <span class="text">application-name</span> указывает название веб-приложения, используемого на странице. authorуказывает имя автора документа в свободном формате. <span class="text">description</span> определяет краткое описание к содержимому страницы, например: <span class="text">&lt;meta name="description" content="Описание содержимого страницы"&gt;</span> <span class="text">generator</span> указывает один из пакетов программного обеспечения, используемого для создания документа, например: <span class="text">&lt;meta name="generator" content="WordPress 4.0"&gt;</span>. <span class="text">keywords</span> . содержит список ключевых слов, разделенных запятыми, соответствующих содержимому страницы, например: <span class="text">&lt;meta name="keywords" content="Ключевые слова через запятую"&gt;</span>. Также атрибут name может принимать следующие значения из расширенной спецификации, такие как <span class="text">creator</span> , <span class="text">googlebot</span>, <span class="text">publisher</span> , <span class="text">robots</span> , <span class="text">slurp</span>, <span class="text">viewport</span>, хотя ни одно из них еще не было официально принято.</td>
 			</tr>
-		</table>
+		</table></figure>
 
-		<li><h3>Элемент &ltstyle&gt</h3></li>
+		<li><h3><a name = "down5">Элемент &lt;style&gt;</a></h3></li>
 		<p>Внутри этого элемента задаются стили, которые используются на странице. Для задания стилей в HTML-документе используется язык CSS. Таких элементов на странице может быть несколько.</p>
 		<p>Для элемента доступны атрибуты <span class="text">media</span> , <span class="text">scoped</span>, <span class="text">type</span>, а также глобальные атрибуты.</p>
 		<p>Внутрь этого элемента можно записывать код форматирования как самих элементов вебстраницы, так и веб-страницы целиком</p>
-		<p class="kod">&ltstyle type ="text/css"&gt<br>
+		<p class="kod">&lt;<span class="bluee">style</span> <span class="redd">type</span> =<span class="indigoo">"text/css"</span>&gt;<br>
 			.paper {<br>
 			width: 200px;<br>
 			height: 300px;<br>
 			background-color: #ef4444;<br>
 			color: #666666;<br>
 			}<br>
-			&lt/style&gt</p>
+			&lt;<span class="bluee">/style</span>>&gt;</p>
 		<p>Чтобы подключить к элементу заданный стиль, необходимо через атрибут <span class="text">class</span> (или <span class="text">id</span>) присвоить элементу соответствующее название:</p>
-		<p class="kod">&ltdiv class="paper"&gt<br>
+		<p class="kod">&lt;<span class="bluee">div <span class="redd">class=<span class="indigoo">"paper"&gt;<br>
 			...<br>
-			&lt/div&gt</p>
+			&lt;<span class="bluee">/div</span>&gt;</p>
 		<p>CSS-код можно встраивать непосредственно в элемент разметки в виде значение атрибута <span class="text">style</span> , например:</p>
-		<p class="kod">&ltp style="color: #666666; background-color: #ef4444; padding: 20px;"&gt</p>
-		<table border="1" class="tabl" align="center">
+		<p class="kod">&lt;<span class="bluee">p</span> <span class="redd">style</span>=<span class="indigoo">"color: #666666; background-color: #ef4444; padding: 20px;"</span>&gt;</p>
+		<figure><figcaption><p align="center">ТАБЛИЦА 3. АТРИБУТЫ ТЕГА &lt;STYLE&gt;</p></figcaption><table border="1" class="tabl" align="center">
 			<tr>
 				<th>Атрибут</th>
 				<th>Описание, принимаемое значение</th>
@@ -171,23 +171,24 @@
 				<td><span class="text">type</span></td>
 				<td>Определяет MIME-тип подключаемого файла со стилями, в данном случае <span class="text">&lt;style type="text/css"&gt;</span>.</td>
 			</tr>
-		</table>
+		</table></figure>
 
-		<li><h3>Элемент &lt;link&gt;</h3></li>
+		<li><h3><a name = "down6">Элемент &lt;link&gt;</a></h3></li>
 		<p>Задать стили для документа можно также при помощи другого способа — записать их в отдельный файл с расширением <span class="text">.css</span>, например, <span class="text">style.css</span> .</p>
 		<p>Подключить файл со стилями к веб-странице можно двумя способами: через директиву <span class="text">@import url</span></p>
-		<p class="kod">&lt!DOCTYPE html&gt<br>
-			&lthtml&gt<br>
-			&lthead&gt<br>
-			&ltstyle&gt @import url(style.css);<br>
-			&lt/style&gt<br>
-			&ltmeta&gt<br>
-			&lttitle&gt &lt/title&gt<br>
-			&lt/head&gt<br></p>
+		<p class="kod">&lt;!DOCTYPE html&gt;<br>
+			&lt;<span class="bluee">html</span>&gt;<br>
+			&lt;<span class="bluee">head</span>&gt;<br>
+			&lt;<span class="bluee">style</span>&gt;<br> 
+			@import url(style.css);<br>
+			&lt;<span class="bluee">/style</span>&gt;<br>
+			&lt;<span class="bluee">meta</span>&gt;<br>
+			&lt;<span class="bluee">title</span>&gt; &lt;<span class="bluee">/title</span>&gt;<br>
+			&lt;<span class="bluee">/head</span>&gt;<br></p>
 		<p>с использованием элемента <span class="text">&lt;link&gt;</span>. Элемент не требует закрывающего тега. Данный элемент определяет отношение между текущей страницей и другими документами. Таких элементов на странице может быть несколько. Запись будет иметь следующий вид:</p>
-		<p class="kod">&ltlink rel="stylesheet" href="style.css" type="text/css"&gt</p>
+		<p class="kod">&lt;<span class="bluee">link</span> <span class="redd">rel</span>="stylesheet" href="style.css" <span class="redd">type</span>="text/css"&gt;</p>
 		<p>Для элемента доступны атрибуты <span class="text">href</span>, <span class="text">hreflang</span> , <span class="text">media</span> , <span class="text">rel</span>, <span class="text">type</span>, а также глобальные атрибуты.</p>
-		<table border="1" class="tabl" align="center">
+		<figure><figcaption><p align="center">ТАБЛИЦА 4. АТРИБУТЫ ТЕГА &lt;LINK&gt;</p></figcaption><table border="1" class="tabl" align="center">
 			<tr>
 				<th>Атрибут</th>
 				<th>Описание, принимаемое значение</th>
@@ -228,7 +229,7 @@
 				<td><span class="text">type</span></td>
 				<td>Определяет MIME-тип документа, на который идет ссылка. В данном случае он принимает значение <span class="text">"text/css"</span> .</td>
 			</tr>
-		</table>
+		</table></figure>
 		</ol>
 	</div>
 </body>
