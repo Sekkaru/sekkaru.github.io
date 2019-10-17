@@ -1,4 +1,9 @@
-body{background-color: Grey; }
-.doc{ width: 50%; text-indent: 35px; background-color: White; }
-.kod{background-color: NavajoWhite; border: 1px black solid; }
-.text{background-color: Cornsilk; border: 1px black solid; }
+body{ background-color: Grey; }
+.sod{ background-color: Cyan ; border: 1px black solid; }
+.doc{ width: 50%; text-indent: 35px; background-color: White; margin-left: 25% }
+.kod{ background-color: NavajoWhite; border: 1px black solid; text-indent: 1px; }
+.text{ background-color: Cornsilk; border: 1px black solid; }
+.redd{ color: Red; }
+.bluee{ color: Blue; }
+.greenn{ color: Green; }
+.indigoo{color: Indigo;}
