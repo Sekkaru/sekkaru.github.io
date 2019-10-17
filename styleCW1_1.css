@@ -1,4 +1,4 @@
 body{background-color: Grey; }
-.doc{ width: 50%; text-indent: 35px; background-color: White; }
+.doc{ width: 50%; text-indent: 35px; background-color: White; text-align: center; }
 .kod{background-color: NavajoWhite; border: 1px black solid; }
 .text{background-color: Cornsilk; border: 1px black solid; }
