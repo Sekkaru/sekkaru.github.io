@@ -1,1 +1,49 @@
-
+body{ 
+	background-color: Black;
+ }
+.sod{ 
+	background-color: Yellow ;
+	border: 1px Green solid;
+}
+.doc{
+width: 210mm;
+text-indent: 35px;
+background-color: Orange;
+margin: auto;
+padding: 20mm 20mm 2cm 3cm;
+}
+.kod{ 
+background-color: Red;
+border: 1px Green solid;
+text-indent: 1px;
+padding: 2mm 2mm 2mm 3mm;
+}
+.text{
+background-color: Magenta;
+border: 1px Green solid;
+}
+.redd{
+ color: Blue;
+ }
+.bluee{ 
+color: Green;
+}
+.greenn{ 
+color: Red;
+ }
+.indigoo{
+color: White;
+}
+.im{
+float: left;
+}
+.tabl{
+border: 1 solid Green;
+margin: auto;	
+}
+figcaption{
+text-align: center;
+}
+ul li{
+list-style: upper-roman;
+}
