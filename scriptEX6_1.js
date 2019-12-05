@@ -51,9 +51,9 @@ function CheckWin(row, cell, typeField) {
     let diagonalReducing = 1 + ChecDirection(row, cell, typeField, -1, -1) + ChecDirection(row, cell, typeField, 1, 1);
     let diagonalIncreasing = 1 + ChecDirection(row, cell, typeField, -1, 1) + ChecDirection(row, cell, typeField, 1, -1);   
      if (horizont >= WinCriteria || vertical >= WinCriteria || diagonalReducing >= WinCriteria || diagonalIncreasing >= WinCriteria) {
-        if (typeField == "2")
+        if (typeField == "1")
             document.getElementById("Cross").innerHTML = "Победии Нолики";
-        else if (typeField == "1")
+        else if (typeField == "2")
             document.getElementById("Cross").innerHTML = "Победили Крестики";
     }
     else if (CheckDrow())
