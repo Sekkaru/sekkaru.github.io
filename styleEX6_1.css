@@ -1,0 +1,13 @@
+body{
+	background-color: Grey;
+}
+table{
+	border: 1px solid White;
+}
+td{
+	border: 1px solid Black;
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
