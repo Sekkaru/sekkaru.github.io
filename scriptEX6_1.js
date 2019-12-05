@@ -28,7 +28,7 @@ function cellMouseDown(e){
 	switch(e.which){
 		case 1:
 			if (this.style.backgroundImage == ""){
-				this.style.backgroundImage = "url(Nol.png)";
+				this.style.backgroundImage = "url(img/Nol.png)";
 				this.cellStatus = "1";
 				hod++;
 				CheckWin (index1, index2, this.cellStatus);
@@ -36,7 +36,7 @@ function cellMouseDown(e){
 			break;
 		case 3:
 			if (this.style.backgroundImage == ""){
-				this.style.backgroundImage = "url(Krest.png)";
+				this.style.backgroundImage = "url(img/Krest.png)";
 				this.cellStatus = "2";
 				hod++;
 				CheckWin (index1, index2, this.cellStatus);
