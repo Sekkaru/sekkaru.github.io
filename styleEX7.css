@@ -13,13 +13,13 @@ background-color: Green;
 text-align: center;
 }
 .menu{
-height:200px;
+height:250px;
 width:300px;
 border: 1px red solid;
 background-color: Orange;
 padding: 2mm 2mm 2mm 3mm;
 font-size: 35px;
-color: #FFA500;
+/*color: #FFA500;*/
 }
 .bio{
 border: 1px magenta solid;
@@ -27,8 +27,13 @@ background-color: Yellow;
 padding: 2mm 2mm 2mm 3mm;
 font-size: 35px;
 }
-.imgobt{
+.imgobtl{
 float: left; 
+margin: 7px 7px 7px 0;
+width:300px; height:250px;
+}
+.imgobtr{
+float: right; 
 margin: 7px 7px 7px 0;
 width:300px; height:250px;
 }
@@ -43,8 +48,8 @@ background-color: Blue;
 padding: 2mm 2mm 2mm 3mm;
 }
 .recl{
-height:200px;
-width:1600px;
+height:250px;
+width:1200px;
 border: 1px green solid;
 background-color: Red;
 padding: 2mm 2mm 2mm 3mm;
@@ -52,4 +57,16 @@ padding: 2mm 2mm 2mm 3mm;
 .sborka{
 display: flex;
 flex-direction: row;	
+}
+h1{
+font-size: 35px;	
+}
+.bordtvor{
+	border: 5px black groove;
+	width: 700px;
+	height: 300px;
+}
+.reclimg{
+	width: 1600px;
+	height: 250px;
 }
