@@ -1,29 +1,34 @@
 body{ 
 	background-color: Grey;
  }
-/* .alldoc{https://yandex.ru/?from=tabbar
+.alldoc{
 width: 210mm;
 text-indent: 35px;
-background-color: White;
+background-color: Black;
 margin: auto;
-padding: 20mm 20mm 20mm 3mm;
-}*/
+/*padding: 3mm 3mm 3mm 3mm;*/
+color: orange;
+}
 .header{
-background-color: Green;
+	border:1px yellow solid;
+/*background-color: Green;*/
+background-color: Black;
 text-align: center;
 }
 .menu{
 height:250px;
 width:300px;
 border: 1px red solid;
-background-color: Orange;
+/*background-color: Orange;*/
+background-color: Black;
 padding: 2mm 2mm 2mm 3mm;
 font-size: 35px;
 /*color: #FFA500;*/
 }
 .bio{
 border: 1px magenta solid;
-background-color: Yellow;
+/*background-color: Yellow;*/
+background-color: Black;
 padding: 2mm 2mm 2mm 3mm;
 font-size: 35px;
 }
@@ -35,24 +40,30 @@ width:300px; height:250px;
 .imgobtr{
 float: right; 
 margin: 7px 7px 7px 0;
-width:300px; height:250px;
+width:300px; 
+height:250px;
 }
 .tvor{
-border: 1px blue solid;
-background-color: Magenta;
+border: 1px lime solid;
+/*background-color: Magenta;*/
+background-color: Black;
 padding: 2mm 2mm 2mm 3mm;
+/*font-size: 30px; */
 }
 .svyaz{
 border: 1px orange solid;
-background-color: Blue;
+/*background-color: Blue;*/
+background-color: Black;
 padding: 2mm 2mm 2mm 3mm;
 }
 .recl{
 height:250px;
-width:1200px;
+min-width: 470px;
+/*max-width:1200px;*/
 border: 1px green solid;
-background-color: Red;
-padding: 2mm 2mm 2mm 3mm;
+/*background-color: Red;*/
+background-color: Black;
+padding: 2mm 2mm 2mm 1mm;
 }
 .sborka{
 display: flex;
@@ -62,11 +73,12 @@ h1{
 font-size: 35px;	
 }
 .bordtvor{
-	border: 5px black groove;
-	width: 700px;
-	height: 300px;
+border: 1px aqua solid;
+/*width: 300px;
+width: 700px;
+height: 300px;*/
 }
 .reclimg{
-	width: 1600px;
-	height: 250px;
+width: 430px;
+height: 250px;
 }
