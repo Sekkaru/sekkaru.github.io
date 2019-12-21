@@ -1,5 +1,5 @@
 body{ 
-	background-color: Grey;
+background-color: Grey;
  }
 .alldoc{
 width: 210mm;
@@ -10,7 +10,7 @@ margin: auto;
 color: orange;
 }
 .header{
-	border:1px yellow solid;
+border:1px yellow solid;
 /*background-color: Green;*/
 background-color: Black;
 text-align: center;
@@ -21,7 +21,7 @@ width:300px;
 border: 1px red solid;
 /*background-color: Orange;*/
 background-color: Black;
-padding: 2mm 2mm 2mm 3mm;
+padding: 2mm 2mm 2mm 2mm;
 font-size: 35px;
 /*color: #FFA500;*/
 }
@@ -29,7 +29,7 @@ font-size: 35px;
 border: 1px magenta solid;
 /*background-color: Yellow;*/
 background-color: Black;
-padding: 2mm 2mm 2mm 3mm;
+padding: 2mm 2mm 2mm 2mm;
 font-size: 35px;
 }
 .imgobtl{
@@ -47,7 +47,7 @@ height:250px;
 border: 1px lime solid;
 /*background-color: Magenta;*/
 background-color: Black;
-padding: 2mm 2mm 2mm 3mm;
+padding: 2mm 2mm 2mm 2mm;
 /*font-size: 30px; */
 }
 .svyaz{
