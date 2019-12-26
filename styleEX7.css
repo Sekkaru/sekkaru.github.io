@@ -11,23 +11,20 @@ color: orange;
 }
 .header{
 border:1px yellow solid;
-/*background-color: Green;*/
 background-color: Black;
 text-align: center;
+font-size: 60px;
 }
 .menu{
 height:250px;
 width:300px;
 border: 1px red solid;
-/*background-color: Orange;*/
 background-color: Black;
 padding: 2mm 2mm 2mm 2mm;
 font-size: 35px;
-/*color: #FFA500;*/
 }
 .bio{
 border: 1px magenta solid;
-/*background-color: Yellow;*/
 background-color: Black;
 padding: 2mm 2mm 2mm 2mm;
 font-size: 35px;
@@ -35,7 +32,8 @@ font-size: 35px;
 .imgobtl{
 float: left; 
 margin: 7px 7px 7px 0;
-width:300px; height:250px;
+width:300px; 
+height:250px;
 }
 .imgobtr{
 float: right; 
@@ -45,23 +43,18 @@ height:250px;
 }
 .tvor{
 border: 1px lime solid;
-/*background-color: Magenta;*/
 background-color: Black;
 padding: 2mm 2mm 2mm 2mm;
-/*font-size: 30px; */
 }
 .svyaz{
 border: 1px orange solid;
-/*background-color: Blue;*/
 background-color: Black;
 padding: 2mm 2mm 2mm 3mm;
 }
 .recl{
 height:250px;
 min-width: 470px;
-/*max-width:1200px;*/
 border: 1px green solid;
-/*background-color: Red;*/
 background-color: Black;
 padding: 2mm 2mm 2mm 1mm;
 }
@@ -81,4 +74,16 @@ height: 300px;*/
 .reclimg{
 width: 430px;
 height: 250px;
+}
+
+@media (max-width: 450px){
+	.bio{
+		font-size: 40px;
+	}
+	.tvor{
+		font-size: 33px;
+	}
+	.svyaz{
+		font-size: 35px;
+	}
 }
