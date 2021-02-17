@@ -1,13 +1,9 @@
-let filed_size = document.getElementById("filed_size").value;
-
 let hod = 0;
-let WinCriteria = filed_size;
-
-
+let WinCriteria = 3;
 
 function CreateTable(){
 	let myTable = document.getElementById("iTable");
-	
+	let filed_size = document.getElementById("filed_size").value;
 	let x = filed_size;
 	let y = filed_size;
 	myTable.innerHTML = "";
