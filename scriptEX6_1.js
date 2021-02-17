@@ -1,8 +1,11 @@
 let hod = 0;
 let WinCriteria = 3;
+
+let filed_size = document.getElementById("filed_size").value;
+
 function CreateTable(){
 	let myTable = document.getElementById("iTable");
-	let filed_size = document.getElementById("filed_size").value;
+	
 	let x = filed_size;
 	let y = filed_size;
 	myTable.innerHTML = "";
